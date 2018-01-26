@@ -53,8 +53,8 @@ This plugin gives you the ability to chain multiple commands into one command bu
 { "keys": ["command+ctrl+alt+8"],
 		"command": "command_chain", "args": {
 			"commands": [
-        { "command": "reg_replace", "args": { "replacements": ["format_JSON_1"] } },
-        { "command": "reg_replace", "args": { "replacements": ["format_JSON_2"] } },
+				{ "command": "reg_replace", "args": { "replacements": ["format_JSON_1"] } },
+				{ "command": "reg_replace", "args": { "replacements": ["format_JSON_2"] } },
 				{ "command": "reg_replace", "args": { "replacements": ["format_JSON_3"] } },
 				{ "command": "reg_replace", "args": { "replacements": ["format_JSON_4"] } },
 				{ "command": "pretty_json" },
@@ -62,7 +62,7 @@ This plugin gives you the ability to chain multiple commands into one command bu
 				{ "command": "detect_indentation" },
 				{ "command": "unexpand_tabs", "args": { "set_translate_tabs": true } },
 				{ "command": "set_setting", "args": { "setting": "tab_size", "value": 3 }
-      }
+      			}
 		]
 	}
 }
